@@ -2,15 +2,15 @@
 
 [![npm version](https://img.shields.io/npm/v/rollup-plugin-json-output)](https://www.npmjs.com/package/rollup-plugin-json-output)
 
-A Rollup plugin that converts modules to JSON by serializing their default exports using `JSON.stringify`.
+A Rollup/Rolldown plugin that converts modules to JSON by serializing their default exports using `JSON.stringify`.
 
 - ⚡️ Generate dynamic JSON from JavaScript configuration files
-- 🔄 Seamless integration with Rollup build process
+- 🔄 Seamless integration with Rollup/Rolldown build process
 
 ## Requirements
 
 - Node.js >= 25.0.0 or Deno >= 2.5.0
-- Rollup >= 2.0.0
+- Rollup >= 2.0.0 or Rolldown
 
 ## Usage
 
