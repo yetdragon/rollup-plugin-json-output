@@ -3,8 +3,9 @@
 	"version": "1.0.0",
 	"description": "Convert modules to JSON by serializing their default exports",
 	"keywords": [
-		"rollup-plugin",
-		"json"
+		"json",
+		"output",
+		"rollup-plugin"
 	],
 	"homepage": "https://github.com/yetdragon/rollup-plugin-json-output#readme",
 	"license": "COIL-1.0",
