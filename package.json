@@ -1,6 +1,6 @@
 {
 	"name": "rollup-plugin-json-output",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Convert modules to JSON by serializing their default exports",
 	"keywords": [
 		"json",
