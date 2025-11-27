@@ -1,0 +1,30 @@
+name: Publish to npm
+run-name: Publishing ${{ github.ref_name }} to npm
+
+on:
+  push:
+    tags:
+      - v*.*.*
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup npm >=11.5.1
+        uses: actions/setup-node@v6
+        with:
+          node-version: "latest"
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: ">=2.5.0"
+
+      - name: Publish to npm
+        run: deno task publish

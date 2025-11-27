@@ -1,0 +1,32 @@
+{
+	"name": "rollup-plugin-json-output",
+	"version": "1.0.0",
+	"description": "Convert modules to JSON by serializing their default exports",
+	"keywords": [
+		"rollup-plugin",
+		"json"
+	],
+	"homepage": "https://github.com/yetdragon/rollup-plugin-json-output#readme",
+	"license": "COIL-1.0",
+	"author": "yetDragon (https://github.com/yetdragon)",
+	"files": [
+		"dist",
+		"src"
+	],
+	"exports": {
+		"types": "./dist/index.d.ts",
+		"import": "./dist/index.js"
+	},
+	"repository": "github:yetdragon/rollup-plugin-json-output",
+	"peerDependencies": {
+		"rollup": "^2.0.0 || ^3.0.0 || ^4.0.0"
+	},
+	"peerDependenciesMeta": {
+		"rollup": {
+			"optional": true
+		}
+	},
+	"engines": {
+		"node": ">=25.0.0"
+	}
+}

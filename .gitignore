@@ -1,0 +1,6 @@
+# Project
+/dist/
+
+# Deno
+/node_modules/
+/deno.lock
