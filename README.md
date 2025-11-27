@@ -62,6 +62,10 @@ export default {
   - Type: `(key: string, value: unknown) => unknown | (number | string)[]`
   - Default: `undefined`
 
+- `respectCompact`: Control whether to respect the bundler's minification settings. When enabled, `indent` is ignored if the bundler set `output.compact` (Rollup) or `output.minify` (Rolldown) to `true`.
+  - Type: `boolean`
+  - Default: `true`
+
 ## License
 
 Copyright © 2025 yetDragon
